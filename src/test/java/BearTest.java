@@ -25,4 +25,16 @@ public class BearTest {
     public void hasWeight() {
         assertEquals(523.12, bear.getWeight(), 0.0);
     }
+
+    @Test
+    public void canSetWeight() {
+        bear.setWeight(600);
+        assertEquals(600, bear.getWeight(), 0.0);
+    }
+
+    @Test
+    public void canEatPeacock() {
+        bear.eatPeacock(200);
+        assertEquals(723.12, bear.getWeight(), 0.0);
+    }
 }
