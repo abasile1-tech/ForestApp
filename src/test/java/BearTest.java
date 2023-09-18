@@ -20,4 +20,9 @@ public class BearTest {
     public void hasAge() {
         assertEquals(20, bear.getAge());
     }
+
+    @Test
+    public void hasWeight() {
+        assertEquals(523.12, bear.getWeight(), 0.0);
+    }
 }
