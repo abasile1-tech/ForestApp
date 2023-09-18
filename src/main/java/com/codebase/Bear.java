@@ -34,4 +34,8 @@ public class Bear {
     public void setWeight(double weight) {
         this.weight = weight;
     }
+
+    public void eatPeacock(double weightOfPeacock) {
+        this.setWeight(this.getWeight() + weightOfPeacock);
+    }
 }
