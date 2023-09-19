@@ -34,7 +34,7 @@ public class BearTest {
 
     @Test
     public void canEatPeacock() {
-        bear.eatPeacock(200);
-        assertEquals(723.12, bear.getWeight(), 0.0);
+        bear.eatPeacock(20);
+        assertEquals(543.12, bear.getWeight(), 0.0);
     }
 }
